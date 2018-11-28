@@ -17,7 +17,7 @@ Pod::Spec.new do |s|
   # 项目名称
   s.name         = "HHYRep"
   # 项目版本号
-  s.version      = "0.0.1"
+  s.version      = "0.0.2"
   # 项目摘要
   s.summary      = "HHYRep"
 
@@ -103,18 +103,23 @@ Pod::Spec.new do |s|
   # 分层文件夹
   s.subspec 'TimerHelper' do |t|
 	t.subspec 'GCD' do |gcd|
-	  gcd.source_files = 'Classes/TimerHelper/GCD/**/*.{h,m}'
+	  gcd.source_files = 'HHYRep/Classes/TimerHelper/GCD/**/*.{h,m}'
 	  # gcd.public_header_files = 'Classes/TimerHelper/GCD/**/*.h'
   	end
 
   	t.subspec 'NSTimer' do |nst|
-	  nst.source_files = 'Classes/TimerHelper/NSTimer/**/*.{h,m}'
+	  nst.source_files = 'HHYRep/Classes/TimerHelper/NSTimer/**/*.{h,m}'
 	  # nst.public_header_files = 'Classes/TimerHelper/NSTimer/**/*.h'
   	end
   end
 
   s.subspec 'UITableVIewHelper' do |uit|
-	  uit.source_files = 'Classes/UITableVIewHelper/**/*.{h,m}'
+	  uit.source_files = 'HHYRep/Classes/UITableVIewHelper/**/*.{h,m}'
+	  # gcd.public_header_files = 'Classes/TimerHelper/GCD/**/*.h'
+  end
+
+   s.subspec 'AFNetworking' do |af|
+	  af.source_files = 'HHYRep/Classes/AFNetworking/**/*.{h,m}'
 	  # gcd.public_header_files = 'Classes/TimerHelper/GCD/**/*.h'
   end
 
@@ -134,7 +139,7 @@ Pod::Spec.new do |s|
 
   # 图片资源
   # s.resource  = "icon.png"
-  s.resources = "Resource/*.png"
+  s.resources = "HHYRep/Resource/*.png"
 
   # s.preserve_paths = "FilesToSave", "MoreFilesToSave"
 

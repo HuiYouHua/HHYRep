@@ -1,6 +1,6 @@
 {
   "name": "HHYRep",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "summary": "HHYRep",
   "description": "HHYRep远程仓库",
   "homepage": "https://github.com/HuiYouHua/HHYRep",
@@ -16,9 +16,9 @@
   },
   "source": {
     "git": "https://github.com/HuiYouHua/HHYRep.git",
-    "tag": "0.0.1"
+    "tag": "0.0.2"
   },
-  "resources": "Resource/*.png",
+  "resources": "HHYRep/Resource/*.png",
   "requires_arc": true,
   "subspecs": [
     {
@@ -26,17 +26,21 @@
       "subspecs": [
         {
           "name": "GCD",
-          "source_files": "Classes/TimerHelper/GCD/**/*.{h,m}"
+          "source_files": "HHYRep/Classes/TimerHelper/GCD/**/*.{h,m}"
         },
         {
           "name": "NSTimer",
-          "source_files": "Classes/TimerHelper/NSTimer/**/*.{h,m}"
+          "source_files": "HHYRep/Classes/TimerHelper/NSTimer/**/*.{h,m}"
         }
       ]
     },
     {
       "name": "UITableVIewHelper",
-      "source_files": "Classes/UITableVIewHelper/**/*.{h,m}"
+      "source_files": "HHYRep/Classes/UITableVIewHelper/**/*.{h,m}"
+    },
+    {
+      "name": "AFNetworking",
+      "source_files": "HHYRep/Classes/AFNetworking/**/*.{h,m}"
     }
   ]
 }
