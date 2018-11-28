@@ -1,22 +1,42 @@
 {
   "name": "HHYRep",
-  "version": "0.1.0",
-  "summary": "A short description of HHYRep.",
-  "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/793316968@qq.com/HHYRep",
+  "version": "0.0.1",
+  "summary": "HHYRep",
+  "description": "HHYRep远程仓库",
+  "homepage": "https://github.com/HuiYouHua/HHYRep",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
   },
   "authors": {
-    "793316968@qq.com": "793316968@qq.com"
-  },
-  "source": {
-    "git": "https://github.com/793316968@qq.com/HHYRep.git",
-    "tag": "0.1.0"
+    "华惠友": "793316968@qq.com"
   },
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": "HHYRep/Classes/**/*"
+  "source": {
+    "git": "https://github.com/HuiYouHua/HHYRep.git",
+    "tag": "0.0.1"
+  },
+  "resources": "Resource/*.png",
+  "requires_arc": true,
+  "subspecs": [
+    {
+      "name": "TimerHelper",
+      "subspecs": [
+        {
+          "name": "GCD",
+          "source_files": "Classes/TimerHelper/GCD/**/*.{h,m}"
+        },
+        {
+          "name": "NSTimer",
+          "source_files": "Classes/TimerHelper/NSTimer/**/*.{h,m}"
+        }
+      ]
+    },
+    {
+      "name": "UITableVIewHelper",
+      "source_files": "Classes/UITableVIewHelper/**/*.{h,m}"
+    }
+  ]
 }

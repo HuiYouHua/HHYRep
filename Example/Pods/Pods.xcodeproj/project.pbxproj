@@ -7,21 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		06598C4D3AA40F95B4D138EE8866836B /* Pods-HHYRep_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DC7CDF050FEBD7F6FAC6317C37CDA02 /* Pods-HHYRep_Example-dummy.m */; };
 		0BB5FB44E8490F65755237F7186F33C6 /* Pods-HHYRep_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A5AE637D1062022C163163D9487C3E6D /* Pods-HHYRep_Tests-dummy.m */; };
-		0C1711CBFCBD10EEF3EE2FB1842F404A /* UITableView+Regist.h in Headers */ = {isa = PBXBuildFile; fileRef = 500578C939BCA09A616DACD409167BBC /* UITableView+Regist.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		0E1B38DFC773098EF42F51A8C3A32DF7 /* HHYRep-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D45FE4B9DC69B5BC96C49FEFB2ACF6AF /* HHYRep-dummy.m */; };
-		22DBC282F138EDA01BBAB5400317EE7D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */; };
-		234FB12BBE2E952829D963FA515A562C /* GCDTimerManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B2DBB19B3BD95DD1FCA9557F2C6146A /* GCDTimerManager.m */; };
-		59743F648193A8041D9E5A8D2C2920F5 /* GCDTimerManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 57F056B3864C593A1E9FBF14CC92A591 /* GCDTimerManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		83174DD3CC7439CAE16221EB536D6AAA /* NSTimer+Common.h in Headers */ = {isa = PBXBuildFile; fileRef = 10292FDD9E72E9CD67E2D554BDD30E0A /* NSTimer+Common.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		712DF15A3526CE3D333C6AF99692AD0C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */; };
 		A88F93DF013FE13D816A523288B0927D /* Pods-HHYRep_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B8921275454385B9CA93CE6D91E13CE2 /* Pods-HHYRep_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AAE459D952A5F0CB8B379DA17253C674 /* Pods-HHYRep_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DC7CDF050FEBD7F6FAC6317C37CDA02 /* Pods-HHYRep_Example-dummy.m */; };
 		AC543CF06D6750166EAE3B1248ECC2F6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */; };
-		B6662C4162D6ED5E96A1BD99764B2E85 /* Pods-HHYRep_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F8E811CD6D4BD9F1A543939582B1CCFC /* Pods-HHYRep_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C52A84470EA81B282A498B1FF738A6F0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */; };
-		DC4C205B3BCD6575F7A49648CFEDAFEA /* NSTimer+Common.m in Sources */ = {isa = PBXBuildFile; fileRef = 614739F8C4A31EF52FF02C87390E8F48 /* NSTimer+Common.m */; };
-		F147E14BCA2FC5DA05EA330747F824A2 /* UITableView+Regist.m in Sources */ = {isa = PBXBuildFile; fileRef = 532735BE6BC65A507B80A40112D2CB10 /* UITableView+Regist.m */; };
-		F56E32E62DDF139D82DF1133E4E1C6FC /* HHYRep-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 882B381BE6F61EEDA783A7C1D14380AF /* HHYRep-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D90E431E0467DFE85328DF13F9A6E2E9 /* Pods-HHYRep_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F8E811CD6D4BD9F1A543939582B1CCFC /* Pods-HHYRep_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,58 +20,38 @@
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = EE48F4F2627250F80CC6E6E763ABF8C5;
+			remoteGlobalIDString = 4657DFFC13167D2BE306422F3D833AC8;
 			remoteInfo = "Pods-HHYRep_Example";
-		};
-		D9425918575945147A897DC001D07B63 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 6F14D61944E2AA84884824D34A5BB97E;
-			remoteInfo = HHYRep;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		01154F47900B8D7D983C34A52CAB544C /* Pods-HHYRep_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HHYRep_Example-resources.sh"; sourceTree = "<group>"; };
-		0CB1C7D537126943E411A1C37150C1AE /* HHYRep-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HHYRep-prefix.pch"; sourceTree = "<group>"; };
-		0EF66D647AD37543A45C8D53EBF9B7B8 /* HHYRep.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = HHYRep.xcconfig; sourceTree = "<group>"; };
-		10292FDD9E72E9CD67E2D554BDD30E0A /* NSTimer+Common.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSTimer+Common.h"; sourceTree = "<group>"; };
-		242D768CD02F7A95AAAE03221103CE95 /* Pods_HHYRep_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_HHYRep_Tests.framework; path = "Pods-HHYRep_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		2B2DBB19B3BD95DD1FCA9557F2C6146A /* GCDTimerManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = GCDTimerManager.m; sourceTree = "<group>"; };
-		354A3081B2ADE85D49CE5955F37B7DD5 /* HHYRep.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = HHYRep.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		13BBB914D3E2FE5F63EB3A42E3E51EE9 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		39ED568B55FCBAE02CFD4A0383AF1B60 /* Pods-HHYRep_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HHYRep_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		3DC7CDF050FEBD7F6FAC6317C37CDA02 /* Pods-HHYRep_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HHYRep_Example-dummy.m"; sourceTree = "<group>"; };
 		438147C485A6E0EDF8CE3100036AF623 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4BFF37416185AEC25F555D2B59DBB037 /* HHYRep.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = HHYRep.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		4CB593F003842189B0DAAFB66C5ED91D /* Pods-HHYRep_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HHYRep_Example.release.xcconfig"; sourceTree = "<group>"; };
-		500578C939BCA09A616DACD409167BBC /* UITableView+Regist.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UITableView+Regist.h"; sourceTree = "<group>"; };
 		50A915BC9CE8198192DE6870D2F61B7A /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		532735BE6BC65A507B80A40112D2CB10 /* UITableView+Regist.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UITableView+Regist.m"; sourceTree = "<group>"; };
 		53E583D7130CAEBC2EFFDFA5135B9957 /* Pods-HHYRep_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HHYRep_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		5441ACC3201201BFE1983E5CCE3AD250 /* Pods-HHYRep_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-HHYRep_Tests.modulemap"; sourceTree = "<group>"; };
-		57F056B3864C593A1E9FBF14CC92A591 /* GCDTimerManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GCDTimerManager.h; sourceTree = "<group>"; };
-		5998200CED486C204704C9C3330F2632 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		614739F8C4A31EF52FF02C87390E8F48 /* NSTimer+Common.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSTimer+Common.m"; sourceTree = "<group>"; };
-		6770D99949BE994CA7792FFB28D072BC /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		685D51426F930540775F95FC28D046A0 /* Pods_HHYRep_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_HHYRep_Example.framework; path = "Pods-HHYRep_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		77B03C0067D34BBF9B00F1CA578B758C /* Pods-HHYRep_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HHYRep_Example-frameworks.sh"; sourceTree = "<group>"; };
 		8236C749D91FA44BF7BA03B50E2A6D08 /* Pods-HHYRep_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HHYRep_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		882B381BE6F61EEDA783A7C1D14380AF /* HHYRep-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HHYRep-umbrella.h"; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		982B99C59F69ED775C85ACBE97468235 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		9B60038364911B4DB8CF536A5241F355 /* Pods-HHYRep_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HHYRep_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		A5AE637D1062022C163163D9487C3E6D /* Pods-HHYRep_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HHYRep_Tests-dummy.m"; sourceTree = "<group>"; };
+		A71B46B486DC35180E416FDAECE649CD /* Pods_HHYRep_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_HHYRep_Tests.framework; path = "Pods-HHYRep_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AB411CB69992703593EE22FA3D9134E5 /* Pods-HHYRep_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HHYRep_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		AFA68864FF41C86D23A74E8F9720EFE2 /* HHYRep.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = HHYRep.framework; path = HHYRep.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B8921275454385B9CA93CE6D91E13CE2 /* Pods-HHYRep_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-HHYRep_Tests-umbrella.h"; sourceTree = "<group>"; };
 		BFA4B4F5951349625F0FB553975824E7 /* Pods-HHYRep_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-HHYRep_Example.modulemap"; sourceTree = "<group>"; };
 		C49AAA7525D584518E700712435E2EC0 /* Pods-HHYRep_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HHYRep_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		D45FE4B9DC69B5BC96C49FEFB2ACF6AF /* HHYRep-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "HHYRep-dummy.m"; sourceTree = "<group>"; };
 		D5D4EB41B1A13C2AB1C65871AE086143 /* Pods-HHYRep_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HHYRep_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		D769915EB5FFF51E7559C57A95E6AAF2 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		D96B0ED462AFC76A7C9B0AAE78A619F2 /* Pods_HHYRep_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_HHYRep_Example.framework; path = "Pods-HHYRep_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EB68A4CF0B59B5156FA83C13A4B04CC9 /* Pods-HHYRep_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HHYRep_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		EEF6FC6B08DC097C5BB6E7996873F3B4 /* Pods-HHYRep_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HHYRep_Tests-resources.sh"; sourceTree = "<group>"; };
-		F731FEB95B06A31E1B15629DAC8A0A8A /* HHYRep.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = HHYRep.modulemap; sourceTree = "<group>"; };
 		F8E811CD6D4BD9F1A543939582B1CCFC /* Pods-HHYRep_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-HHYRep_Example-umbrella.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -93,37 +64,25 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A318F7734C43249D8BDFAC0C017D24F3 /* Frameworks */ = {
+		AD5AA977972087EE18AD6EE6700612D1 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C52A84470EA81B282A498B1FF738A6F0 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		ADEE4CC5BC373E53984B788CBC01DF1E /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				22DBC282F138EDA01BBAB5400317EE7D /* Foundation.framework in Frameworks */,
+				712DF15A3526CE3D333C6AF99692AD0C /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0C5E35376DE4CCAC0BF44989FB3CC5B6 /* Support Files */ = {
+		0ABD1A7FB9B8AEF0083B60FEACC6E8FE /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				F731FEB95B06A31E1B15629DAC8A0A8A /* HHYRep.modulemap */,
-				0EF66D647AD37543A45C8D53EBF9B7B8 /* HHYRep.xcconfig */,
-				D45FE4B9DC69B5BC96C49FEFB2ACF6AF /* HHYRep-dummy.m */,
-				0CB1C7D537126943E411A1C37150C1AE /* HHYRep-prefix.pch */,
-				882B381BE6F61EEDA783A7C1D14380AF /* HHYRep-umbrella.h */,
-				5998200CED486C204704C9C3330F2632 /* Info.plist */,
+				4BFF37416185AEC25F555D2B59DBB037 /* HHYRep.podspec */,
+				982B99C59F69ED775C85ACBE97468235 /* LICENSE */,
+				13BBB914D3E2FE5F63EB3A42E3E51EE9 /* README.md */,
 			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/HHYRep";
+			name = Pod;
 			sourceTree = "<group>";
 		};
 		1B5F472DA6957C687471E87A7C15AA4D /* Pods-HHYRep_Tests */ = {
@@ -144,14 +103,12 @@
 			path = "Target Support Files/Pods-HHYRep_Tests";
 			sourceTree = "<group>";
 		};
-		2AE92D604EB460A383927783FAC60C28 /* Pod */ = {
+		25475709F1C4E015C8D08AED1E736EF3 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				354A3081B2ADE85D49CE5955F37B7DD5 /* HHYRep.podspec */,
-				6770D99949BE994CA7792FFB28D072BC /* LICENSE */,
-				D769915EB5FFF51E7559C57A95E6AAF2 /* README.md */,
+				6B85A8303848E1C607865CBD473E3167 /* HHYRep */,
 			);
-			name = Pod;
+			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 		44D5347904CF754D6785B84253F2574A /* iOS */ = {
@@ -171,23 +128,24 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
+		6B85A8303848E1C607865CBD473E3167 /* HHYRep */ = {
+			isa = PBXGroup;
+			children = (
+				0ABD1A7FB9B8AEF0083B60FEACC6E8FE /* Pod */,
+			);
+			name = HHYRep;
+			path = ../..;
+			sourceTree = "<group>";
+		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				825700B4E62B8FEE6EC164281782C3EB /* Development Pods */,
+				25475709F1C4E015C8D08AED1E736EF3 /* Development Pods */,
 				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
-				CD2499262B72C969DF801D427C0F856C /* Products */,
+				E1F8445C1B1429E325AAEED4610D56C5 /* Products */,
 				58EDB16D773DCB6C34CFDF60F86A45A3 /* Targets Support Files */,
 			);
-			sourceTree = "<group>";
-		};
-		825700B4E62B8FEE6EC164281782C3EB /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				D39220DE8BF237944CF391E773A5A709 /* HHYRep */,
-			);
-			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 		A9541F40EFF53E9FCA2BDC062211C14E /* Pods-HHYRep_Example */ = {
@@ -208,26 +166,6 @@
 			path = "Target Support Files/Pods-HHYRep_Example";
 			sourceTree = "<group>";
 		};
-		B22B71DB4A9500F1354AAEA96A443057 /* TimerHelper */ = {
-			isa = PBXGroup;
-			children = (
-				B24376DCE16B149B1781A15FAF868EB1 /* GCD */,
-				E39D2E117996489211E91703C0E53319 /* NSTimer */,
-			);
-			name = TimerHelper;
-			path = HHYRep/Classes/TimerHelper;
-			sourceTree = "<group>";
-		};
-		B24376DCE16B149B1781A15FAF868EB1 /* GCD */ = {
-			isa = PBXGroup;
-			children = (
-				57F056B3864C593A1E9FBF14CC92A591 /* GCDTimerManager.h */,
-				2B2DBB19B3BD95DD1FCA9557F2C6146A /* GCDTimerManager.m */,
-			);
-			name = GCD;
-			path = GCD;
-			sourceTree = "<group>";
-		};
 		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -236,46 +174,13 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		CD2499262B72C969DF801D427C0F856C /* Products */ = {
+		E1F8445C1B1429E325AAEED4610D56C5 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				AFA68864FF41C86D23A74E8F9720EFE2 /* HHYRep.framework */,
-				685D51426F930540775F95FC28D046A0 /* Pods_HHYRep_Example.framework */,
-				242D768CD02F7A95AAAE03221103CE95 /* Pods_HHYRep_Tests.framework */,
+				D96B0ED462AFC76A7C9B0AAE78A619F2 /* Pods_HHYRep_Example.framework */,
+				A71B46B486DC35180E416FDAECE649CD /* Pods_HHYRep_Tests.framework */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		D39220DE8BF237944CF391E773A5A709 /* HHYRep */ = {
-			isa = PBXGroup;
-			children = (
-				2AE92D604EB460A383927783FAC60C28 /* Pod */,
-				0C5E35376DE4CCAC0BF44989FB3CC5B6 /* Support Files */,
-				B22B71DB4A9500F1354AAEA96A443057 /* TimerHelper */,
-				E5E83C4F02A339E591E731A4F2764793 /* UITableVIewHelper */,
-			);
-			name = HHYRep;
-			path = ../..;
-			sourceTree = "<group>";
-		};
-		E39D2E117996489211E91703C0E53319 /* NSTimer */ = {
-			isa = PBXGroup;
-			children = (
-				10292FDD9E72E9CD67E2D554BDD30E0A /* NSTimer+Common.h */,
-				614739F8C4A31EF52FF02C87390E8F48 /* NSTimer+Common.m */,
-			);
-			name = NSTimer;
-			path = NSTimer;
-			sourceTree = "<group>";
-		};
-		E5E83C4F02A339E591E731A4F2764793 /* UITableVIewHelper */ = {
-			isa = PBXGroup;
-			children = (
-				500578C939BCA09A616DACD409167BBC /* UITableView+Regist.h */,
-				532735BE6BC65A507B80A40112D2CB10 /* UITableView+Regist.m */,
-			);
-			name = UITableVIewHelper;
-			path = HHYRep/Classes/UITableVIewHelper;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -289,28 +194,35 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		15583CD09BCF2ED32BFE34B387C5AF06 /* Headers */ = {
+		812FD185E40931626D1246F907ACBC87 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				59743F648193A8041D9E5A8D2C2920F5 /* GCDTimerManager.h in Headers */,
-				F56E32E62DDF139D82DF1133E4E1C6FC /* HHYRep-umbrella.h in Headers */,
-				83174DD3CC7439CAE16221EB536D6AAA /* NSTimer+Common.h in Headers */,
-				0C1711CBFCBD10EEF3EE2FB1842F404A /* UITableView+Regist.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		909D8EC4657C100CEFB09E2F5D79C574 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				B6662C4162D6ED5E96A1BD99764B2E85 /* Pods-HHYRep_Example-umbrella.h in Headers */,
+				D90E431E0467DFE85328DF13F9A6E2E9 /* Pods-HHYRep_Example-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
+		4657DFFC13167D2BE306422F3D833AC8 /* Pods-HHYRep_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C0E2C00007912A1C2DDC77A4C7002F87 /* Build configuration list for PBXNativeTarget "Pods-HHYRep_Example" */;
+			buildPhases = (
+				812FD185E40931626D1246F907ACBC87 /* Headers */,
+				290FD7A607B817B40386BC9CF38147D3 /* Sources */,
+				AD5AA977972087EE18AD6EE6700612D1 /* Frameworks */,
+				18A33337EA9E2A7E9A54DF6392206A3D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-HHYRep_Example";
+			productName = "Pods-HHYRep_Example";
+			productReference = D96B0ED462AFC76A7C9B0AAE78A619F2 /* Pods_HHYRep_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
 		61452583FC533B71F9B2979BC56C0F94 /* Pods-HHYRep_Tests */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1FD3F06B04DAF337A9BA4C37CCF0E640 /* Build configuration list for PBXNativeTarget "Pods-HHYRep_Tests" */;
@@ -327,44 +239,7 @@
 			);
 			name = "Pods-HHYRep_Tests";
 			productName = "Pods-HHYRep_Tests";
-			productReference = 242D768CD02F7A95AAAE03221103CE95 /* Pods_HHYRep_Tests.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		6F14D61944E2AA84884824D34A5BB97E /* HHYRep */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = F003CED4949B336C59592A18FC826054 /* Build configuration list for PBXNativeTarget "HHYRep" */;
-			buildPhases = (
-				15583CD09BCF2ED32BFE34B387C5AF06 /* Headers */,
-				E08E76DEA5FC3A2989CE9ADA78E376BB /* Sources */,
-				A318F7734C43249D8BDFAC0C017D24F3 /* Frameworks */,
-				6152E2B06544D61928350A8A39CB3C26 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = HHYRep;
-			productName = HHYRep;
-			productReference = AFA68864FF41C86D23A74E8F9720EFE2 /* HHYRep.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		EE48F4F2627250F80CC6E6E763ABF8C5 /* Pods-HHYRep_Example */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 09AE75748D90B0280C645E7AB79DC89A /* Build configuration list for PBXNativeTarget "Pods-HHYRep_Example" */;
-			buildPhases = (
-				909D8EC4657C100CEFB09E2F5D79C574 /* Headers */,
-				408DF1DBB1119443AE013A1B4773BD08 /* Sources */,
-				ADEE4CC5BC373E53984B788CBC01DF1E /* Frameworks */,
-				BF849A6A0A7D712159A5307C1C1E1AEB /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				A5AB711A1DCDB139F475DB5086E294B6 /* PBXTargetDependency */,
-			);
-			name = "Pods-HHYRep_Example";
-			productName = "Pods-HHYRep_Example";
-			productReference = 685D51426F930540775F95FC28D046A0 /* Pods_HHYRep_Example.framework */;
+			productReference = A71B46B486DC35180E416FDAECE649CD /* Pods_HHYRep_Tests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -384,33 +259,25 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = CD2499262B72C969DF801D427C0F856C /* Products */;
+			productRefGroup = E1F8445C1B1429E325AAEED4610D56C5 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				6F14D61944E2AA84884824D34A5BB97E /* HHYRep */,
-				EE48F4F2627250F80CC6E6E763ABF8C5 /* Pods-HHYRep_Example */,
+				4657DFFC13167D2BE306422F3D833AC8 /* Pods-HHYRep_Example */,
 				61452583FC533B71F9B2979BC56C0F94 /* Pods-HHYRep_Tests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		18A33337EA9E2A7E9A54DF6392206A3D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		3E35BE5A4BB5CC907AC4A17583541943 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		6152E2B06544D61928350A8A39CB3C26 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		BF849A6A0A7D712159A5307C1C1E1AEB /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -428,22 +295,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		408DF1DBB1119443AE013A1B4773BD08 /* Sources */ = {
+		290FD7A607B817B40386BC9CF38147D3 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				06598C4D3AA40F95B4D138EE8866836B /* Pods-HHYRep_Example-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		E08E76DEA5FC3A2989CE9ADA78E376BB /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				234FB12BBE2E952829D963FA515A562C /* GCDTimerManager.m in Sources */,
-				0E1B38DFC773098EF42F51A8C3A32DF7 /* HHYRep-dummy.m in Sources */,
-				DC4C205B3BCD6575F7A49648CFEDAFEA /* NSTimer+Common.m in Sources */,
-				F147E14BCA2FC5DA05EA330747F824A2 /* UITableView+Regist.m in Sources */,
+				AAE459D952A5F0CB8B379DA17253C674 /* Pods-HHYRep_Example-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -453,21 +309,15 @@
 		0FE2A35ACC9A32E4D46B8BFE2A3160C4 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-HHYRep_Example";
-			target = EE48F4F2627250F80CC6E6E763ABF8C5 /* Pods-HHYRep_Example */;
+			target = 4657DFFC13167D2BE306422F3D833AC8 /* Pods-HHYRep_Example */;
 			targetProxy = 2FE4E41B4EB10681F4997680DEF9F3A4 /* PBXContainerItemProxy */;
-		};
-		A5AB711A1DCDB139F475DB5086E294B6 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = HHYRep;
-			target = 6F14D61944E2AA84884824D34A5BB97E /* HHYRep */;
-			targetProxy = D9425918575945147A897DC001D07B63 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		3F5C500DBD1ACFFD7C6544EE83BD0442 /* Debug */ = {
+		10CBC500265E5DB3DFD60FA6CA832E3D /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D5D4EB41B1A13C2AB1C65871AE086143 /* Pods-HHYRep_Example.debug.xcconfig */;
+			baseConfigurationReference = 4CB593F003842189B0DAAFB66C5ED91D /* Pods-HHYRep_Example.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "";
@@ -493,10 +343,11 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Debug;
+			name = Release;
 		};
 		50646285DD9FD95AF390BDA3FB1948EA /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -660,70 +511,9 @@
 			};
 			name = Release;
 		};
-		93E2220E6D7FA65A984A58AC932466D0 /* Release */ = {
+		B17852C516460E8CE26668D458828054 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0EF66D647AD37543A45C8D53EBF9B7B8 /* HHYRep.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/HHYRep/HHYRep-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/HHYRep/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/HHYRep/HHYRep.modulemap";
-				PRODUCT_MODULE_NAME = HHYRep;
-				PRODUCT_NAME = HHYRep;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		BCD07FA3BF0DBD682DC261F3F2B91924 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0EF66D647AD37543A45C8D53EBF9B7B8 /* HHYRep.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/HHYRep/HHYRep-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/HHYRep/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/HHYRep/HHYRep.modulemap";
-				PRODUCT_MODULE_NAME = HHYRep;
-				PRODUCT_NAME = HHYRep;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		CECDC870E9F12159480B06BE84492D4A /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4CB593F003842189B0DAAFB66C5ED91D /* Pods-HHYRep_Example.release.xcconfig */;
+			baseConfigurationReference = D5D4EB41B1A13C2AB1C65871AE086143 /* Pods-HHYRep_Example.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "";
@@ -749,11 +539,10 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Release;
+			name = Debug;
 		};
 		F2BF2CCC21F4C49ADC72D63144A7071F /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -791,15 +580,6 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		09AE75748D90B0280C645E7AB79DC89A /* Build configuration list for PBXNativeTarget "Pods-HHYRep_Example" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				3F5C500DBD1ACFFD7C6544EE83BD0442 /* Debug */,
-				CECDC870E9F12159480B06BE84492D4A /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		1FD3F06B04DAF337A9BA4C37CCF0E640 /* Build configuration list for PBXNativeTarget "Pods-HHYRep_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -818,11 +598,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F003CED4949B336C59592A18FC826054 /* Build configuration list for PBXNativeTarget "HHYRep" */ = {
+		C0E2C00007912A1C2DDC77A4C7002F87 /* Build configuration list for PBXNativeTarget "Pods-HHYRep_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				BCD07FA3BF0DBD682DC261F3F2B91924 /* Debug */,
-				93E2220E6D7FA65A984A58AC932466D0 /* Release */,
+				B17852C516460E8CE26668D458828054 /* Debug */,
+				10CBC500265E5DB3DFD60FA6CA832E3D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
