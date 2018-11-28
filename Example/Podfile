@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'HHYRep_Example' do
+  pod 'HHYRep', :path => '../'
+
+  target 'HHYRep_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
