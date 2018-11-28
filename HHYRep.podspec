@@ -17,7 +17,7 @@ Pod::Spec.new do |s|
   # 项目名称
   s.name         = "HHYRep"
   # 项目版本号
-  s.version      = "0.0.2"
+  s.version      = "0.0.3"
   # 项目摘要
   s.summary      = "HHYRep"
 

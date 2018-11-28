@@ -1,6 +1,6 @@
 {
   "name": "HHYRep",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "summary": "HHYRep",
   "description": "HHYRep远程仓库",
   "homepage": "https://github.com/HuiYouHua/HHYRep",
@@ -16,7 +16,7 @@
   },
   "source": {
     "git": "https://github.com/HuiYouHua/HHYRep.git",
-    "tag": "0.0.2"
+    "tag": "0.0.3"
   },
   "resources": "HHYRep/Resource/*.png",
   "requires_arc": true,

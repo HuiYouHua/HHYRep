@@ -1,15 +1,15 @@
 PODS:
-  - HHYRep (0.0.2):
-    - HHYRep/AFNetworking (= 0.0.2)
-    - HHYRep/TimerHelper (= 0.0.2)
-    - HHYRep/UITableVIewHelper (= 0.0.2)
-  - HHYRep/AFNetworking (0.0.2)
-  - HHYRep/TimerHelper (0.0.2):
-    - HHYRep/TimerHelper/GCD (= 0.0.2)
-    - HHYRep/TimerHelper/NSTimer (= 0.0.2)
-  - HHYRep/TimerHelper/GCD (0.0.2)
-  - HHYRep/TimerHelper/NSTimer (0.0.2)
-  - HHYRep/UITableVIewHelper (0.0.2)
+  - HHYRep (0.0.3):
+    - HHYRep/AFNetworking (= 0.0.3)
+    - HHYRep/TimerHelper (= 0.0.3)
+    - HHYRep/UITableVIewHelper (= 0.0.3)
+  - HHYRep/AFNetworking (0.0.3)
+  - HHYRep/TimerHelper (0.0.3):
+    - HHYRep/TimerHelper/GCD (= 0.0.3)
+    - HHYRep/TimerHelper/NSTimer (= 0.0.3)
+  - HHYRep/TimerHelper/GCD (0.0.3)
+  - HHYRep/TimerHelper/NSTimer (0.0.3)
+  - HHYRep/UITableVIewHelper (0.0.3)
 
 DEPENDENCIES:
   - HHYRep (from `../`)
@@ -19,7 +19,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  HHYRep: d105e84f4be08fe60084ee26f54e21bf299c4b1a
+  HHYRep: 4dc62092d0d87a2efdd60c2b2eea336ffc4d420f
 
 PODFILE CHECKSUM: 80baee4f388160fbc9194ccdda6a51b56f6dc24a
 
