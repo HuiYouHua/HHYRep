@@ -1,0 +1,6 @@
+framework module Pods_HHYRep_Example {
+  umbrella header "Pods-HHYRep_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

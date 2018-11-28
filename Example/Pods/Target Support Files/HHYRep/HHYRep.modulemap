@@ -1,0 +1,6 @@
+framework module HHYRep {
+  umbrella header "HHYRep-umbrella.h"
+
+  export *
+  module * { export * }
+}
